@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        terminal: {
+          green: "hsl(var(--terminal-green))",
+          blue: "hsl(var(--terminal-blue))",
+          purple: "hsl(var(--terminal-purple))",
+          cyan: "hsl(var(--terminal-cyan))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -58,10 +64,23 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        mono: ["JetBrains Mono", "monospace"],
+        cyber: ["Orbitron", "monospace"],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+        blink: "blink 1s infinite",
+        "glitch-1": "glitch-1 2s infinite",
+        "glitch-2": "glitch-2 2s infinite",
+        typing: "typing 3s steps(40) infinite",
+        "fade-in-up": "fadeInUp 0.6s ease-out",
       },
       keyframes: {
         "accordion-down": {
@@ -80,10 +99,24 @@ export default {
             height: "0",
           },
         },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        blink: {
+          "0%, 50%": { opacity: "1" },
+          "51%, 100%": { opacity: "0" },
+        },
+        typing: {
+          from: { width: "0" },
+          to: { width: "100%" },
+        },
+        fadeInUp: {
+          from: {
+            opacity: "0",
+            transform: "translateY(30px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
     },
   },

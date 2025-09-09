@@ -10,39 +10,40 @@
   :root {
     /* Core dark theme colors */
     --background: 220 13% 6%;
-    --foreground: 195 100% 85%;
+    --foreground: 120 100% 85%;
 
     --card: 220 13% 8%;
-    --card-foreground: 195 100% 90%;
+    --card-foreground: 120 100% 90%;
 
     --popover: 220 13% 8%;
-    --popover-foreground: 195 100% 90%;
+    --popover-foreground: 120 100% 90%;
 
-    /* Neon cyberpunk colors */
-    --primary: 14 100% 57%;
+    /* Cybersecurity theme colors */
+    --primary: 120 100% 50%;
     --primary-foreground: 220 13% 6%;
 
-    --secondary: 180 100% 50%;
+    --secondary: 217 91% 60%;
     --secondary-foreground: 220 13% 6%;
 
     --muted: 220 13% 12%;
-    --muted-foreground: 180 20% 65%;
+    --muted-foreground: 120 20% 65%;
 
-    --accent: 330 100% 65%;
+    --accent: 0 84% 60%;
     --accent-foreground: 220 13% 6%;
 
     /* Terminal colors */  
-    --terminal-green: 14 100% 57%;
-    --terminal-blue: 180 100% 50%;
-    --terminal-purple: 330 100% 65%;
-    --terminal-cyan: 195 100% 75%;
+    --terminal-green: 120 100% 50%;
+    --terminal-blue: 217 91% 60%;
+    --terminal-purple: 270 100% 70%;
+    --terminal-cyan: 180 100% 50%;
+    --terminal-red: 0 84% 60%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 220 13% 20%;
     --input: 220 13% 12%;
-    --ring: 14 100% 57%;
+    --ring: 120 100% 50%;
 
     /* Glow effects */
     --glow-primary: 0 0 20px hsl(var(--primary) / 0.5);

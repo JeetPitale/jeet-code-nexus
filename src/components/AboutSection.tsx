@@ -69,7 +69,7 @@ export const AboutSection = () => {
               {
                 icon: Shield,
                 title: "Security First",
-                description: "Specialized in cybersecurity, cryptography, and penetration testing"
+                description: "Specialized in cybersecurity"
               },
               {
                 icon: Code,
